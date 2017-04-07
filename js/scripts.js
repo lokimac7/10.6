@@ -96,8 +96,8 @@ var board = {
 };
 
 function initSortable() {
-    $('.column-card-list').sortable({
-      	connectWith: '.column-card-list',
+    $('.column-list').sortable({
+      	connectWith: '.column-list',
       	placeholder: 'card-placeholder'
     }).disableSelection();
 }

@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+}
+
 body {
 	margin: 0;
 	padding: 0;
@@ -31,11 +35,16 @@ h1 {
 
 .column {
 	float: left;
-	width: 33.28%;
+	width: 33.33%;
 	min-height: 100vh;
 	border-right: 1px solid black;
 	border-bottom: 1px solid black;
 	background: rgba(0, 0, 0, 0.4);
+}
+
+ul {
+	min-height: 100px;
+	list-style-type: none;
 }
 
 .btn-delete {
@@ -85,7 +94,6 @@ h2 {
 	font-weight: bold;
 	border-bottom: 1px solid black;
 	overflow-wrap: break-word;
-	list-style-type: none;
 	padding: 10px;
 	background: rgba(0, 0, 0, 0.3);
 	letter-spacing: 1px;
